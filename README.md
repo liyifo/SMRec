@@ -23,3 +23,15 @@ python main.py
 python main.py --test True
 ```
 
+## Acknowledgement
+If this work is useful in your research, please cite our paper.
+
+```
+@inproceedings{li2024mr,
+  title={Significance-aware Medication Recommendation with Medication Representation Learning},
+  author={Yishuo Li, Zhufeng Shao, Weimin Chen, Shoujin Wang, Yuehan Du, Wenpeng Lu},
+  booktitle={Proceedings of the 27th International Conference on Computer Supported Cooperative Work in Design (CSCWD 2024)}
+  year={2024},
+  organization={IEEE}
+}
+```
