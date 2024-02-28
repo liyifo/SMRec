@@ -9,7 +9,6 @@ torch==2.1.1
 tqdm==4.66.1
 dgl==1.1.2.cu118
 scikit-learn==1.3.2
-...
 ```
 You can build the conda environment for our experiment using the following command:
 ```
