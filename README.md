@@ -3,6 +3,14 @@
 This is the code repository for the paper "Significance-aware Medication Recommendation with Medication Representation Learning".
 
 ## Environment
+```
+python==3.9.18
+torch==2.1.1
+tqdm==4.66.1
+dgl==1.1.2.cu118
+scikit-learn==1.3.2
+...
+```
 You can build the conda environment for our experiment using the following command:
 ```
 conda env create -f environment.yml
@@ -17,6 +25,8 @@ All same as [SafeDrug](https://github.com/ycq091044/SafeDrug/) or [COGNet](https
 
 
 ## Train or Test
+
+
 You can train or test the model using the following command:
 ```
 python main.py
