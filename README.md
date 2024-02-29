@@ -2,6 +2,9 @@
 
 This is the code repository for the paper "Significance-aware Medication Recommendation with Medication Representation Learning".
 
+![DPM](https://github.com/liyifo/SMRec/assets/80516655/e46400c8-4ee4-4935-bcc6-2e0d29c24f95)
+
+
 ## Environment
 ```
 python==3.9.18
