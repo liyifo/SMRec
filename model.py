@@ -9,9 +9,6 @@ from opt_einsum import contract
 
 
 class GraphConvolution(torch.nn.Module):
-    """
-    Simple GCN layer, similar to https://arxiv.org/abs/1609.02907
-    """
 
     def __init__(self, in_features, out_features, bias=True):
         super(GraphConvolution, self).__init__()
@@ -109,7 +106,7 @@ class MainModel(torch.nn.Module):
 
     def __init__(self, device ,voc_size, emb_dim, ehr_adj, ddi_adj, dropout=0.5):
         '''
-        gpu, 词表大小，嵌入维度, 嵌入dropout， 
+        gpu, 词表大小，嵌入维度, 嵌入dropout 
         '''
         super(MainModel, self).__init__()
         self.device = device
@@ -528,7 +525,7 @@ class MainModel_level_no_share(torch.nn.Module):
 
     def __init__(self, device ,voc_size, emb_dim, ehr_adj, ddi_adj, dropout=0.5):
         '''
-        gpu, 词表大小，嵌入维度, 嵌入dropout， 
+        gpu, 词表大小，嵌入维度, 嵌入dropout 
         '''
         super(MainModel_level_no_share, self).__init__()
         self.device = device
